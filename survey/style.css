@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    overflow: scroll;
+    font-family: helvetica;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+.body{
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.6);
+    text-align: left;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    
+}
+.name{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.email{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.age{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.dropdown{
+    width: 593px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.feature{
+    width: 560px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.comment{
+    width: 570px;
+    border-radius: 10px;
+    height: 100px;
+}
+.submit{
+    width: 575px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 3%;
+    color: white;
+    background-color: rgb(19, 143, 19);
+}
+.title{
+    color: white;
+}
+.description{
+    color: white;
+}
+
+
