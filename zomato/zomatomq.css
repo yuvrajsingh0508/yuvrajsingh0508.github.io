@@ -81,7 +81,7 @@
         margin-left: 0px;
         margin-right: 20px;
     }
-    .tag{
+    .explore-lists{
         margin-left: 100px;
         position: relative;
         left: -59px;
@@ -91,17 +91,17 @@
         margin-left: 0px;
         margin-right: 16px;
     }
-    .popular-title{
+    .popular-localities{
         font-size: 25px;
     }
-    .place-name{
+    .places{
         margin-left: 0px;
         margin-right: 15px;
     }
-    .place-button-tag{
+    .button-place{
         margin-left: 15px;
     }
-    .explore-tag{
+    .explore{
         margin-left: 60px;
     }
     h2{
@@ -111,31 +111,31 @@
         margin-left: 40px;
         padding-right: 38px;
     }
-    .shop-tag{
+    .shops{
         padding-right: 19px;
     }
 
-    .bi a{
+    .delivery-cities a{
         font-size: 10px;
     }
 
-    .food-name-1{
+    .food-chain-1{
         margin-left: -90px;
        
     }
 
-    .food-name-2{
+    .food-chain-2{
         margin-left: -90px;
     }
-    .food-name-3{
-        margin-left: -90px;
-    }
-
-    .food-name-4{
+    .food-chain-3{
         margin-left: -90px;
     }
 
-    .food-name-5{
+    .food-chain-4{
+        margin-left: -90px;
+    }
+
+    .food-chain-5{
         margin-left: -90px;
         margin-top: 30px;
         display: flex;
@@ -155,18 +155,18 @@
     .zomato-deliver-cities-5{
         margin-left: -90px;
     }
-    .last-section-1{
+    .footer-section-1{
         margin-left: -66px;
     }
-    .last-section-3{
+    .footer-section-3{
         margin-left: -70px;
         padding-top: 0px;
     }
-    .last-section-4{
+    .footer-section-4{
         margin-left: -74px;
         padding-top: 0px;
     }
-    last-section-5{
+    .footer-section-5{
         margin-left: -85px;
         padding-top: 30px;
     }
