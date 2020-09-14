@@ -1,0 +1,19 @@
+*{margin: 0; padding: 0; }
+
+body{
+    font-style: normal;
+    color: #000;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Public Sans";
+    text-align: left;
+    text-indent: 0;
+    line-height: 21px;
+    letter-spacing: normal;
+    text-transform: none;
+}
+.logo{
+    display: block;
+    padding-left: 500px;
+    padding-top: 50px;
+}

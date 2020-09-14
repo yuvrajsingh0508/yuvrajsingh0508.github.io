@@ -1,6 +1,6 @@
 *{margin: 0%; padding: 0%;  }
 
-div a{
+nav a{
     float: right;
     color: #202020;
     padding: 16px;
@@ -80,7 +80,7 @@ button{
     
    
     
-.shoes{
+.ad{
     display: flex;
     flex-wrap: wrap;
     padding-top: 30px;
@@ -89,7 +89,7 @@ button{
 }
 
 
-.spikes{
+.non{
     width: 370px;
     padding: 20px;
     margin: auto;
@@ -105,7 +105,7 @@ button{
 
     
 
-.power{
+.no{
     width: 370px;
     padding: 20px;
     margin: auto;
@@ -116,7 +116,7 @@ button{
     height: 600px;
 }
 
-.parents{
+.n{
     width: 370px;
     padding: 20px;
     margin: auto;
@@ -128,7 +128,7 @@ button{
     
 }
 
-.biography{
+.q{
     width: 370px;
     padding: 20px;
     margin: auto;
@@ -142,7 +142,7 @@ button{
     margin-bottom: 30px;
 }
 
-.india{
+.w{
     width: 370px;
     padding: 20px;
     margin: auto;
@@ -154,7 +154,7 @@ button{
     margin-bottom: 30px;
 }
 
-.knocking{
+.e{
     width: 370px;
     padding: 20px;
     margin: auto;
@@ -168,7 +168,7 @@ button{
 }
 
 
-.interview{
+.r{
     width: 370px;
     padding: 20px;
     margin: auto;
@@ -181,7 +181,7 @@ button{
     
 }
 
-.guide{
+.t{
     width: 370px;
     padding: 20px;
     margin: auto;
@@ -193,7 +193,7 @@ button{
     margin-bottom: 30px;
 }
 
-.tips{
+.y{
     width: 370px;
     padding: 20px;
     margin: auto;
@@ -207,7 +207,7 @@ button{
 
 }
   
-.hom a{
+.m a{
     text-decoration: black;
     color: black;
     
@@ -215,7 +215,7 @@ button{
     
 }
 
-.section {
+.b {
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); height: 60px;
     display: flex;
     
@@ -223,7 +223,7 @@ button{
     
 }
 
-.section a{
+.b a{
     color: white;
     padding-top: 20px;
     
@@ -275,13 +275,13 @@ h6{
     
 }
 
- .shoes{
+ .ad{
     justify-content: space-around;
 }
 
 
 
-.improve{
+.bt{
     font-family: Raleway, Arial, Helvetica;
     line-height: 1.75;
     font-family: var(--text-font);
@@ -306,23 +306,23 @@ button:hover{
     border: white;
 }
 
-.section :hover{
+.b :hover{
     
     color: grey;
     text-decoration: none;
 }
     
-.home{
+.op{
     padding-left: 450px;
     
 }
 
-div a:active{
+nav a:active{
     text-decoration: underline;
 }
 
 @media screen and (max-width: 500px) {
-    .body{
+    .md{
         width: 830px;
     }   
     .text{
@@ -336,11 +336,11 @@ div a:active{
         padding-bottom:80px;
     }
 
-    .img{
+    .lo{
         height: 55px;
     }
 
-    .top{
+    .na{
         padding-right: 90px;
         
     }
@@ -358,7 +358,7 @@ div a:active{
         padding-bottom: 15px;
     }
 
-    .shoes{
+    .ad{
         display: grid;
     }
 
@@ -367,70 +367,70 @@ div a:active{
         margin-right: 170px;
     }
 
-    .improve{
+    .bt{
         margin-top: 25px;
     }
 
-    .spikes{
+    .non{
         width: 750px;
         height: 800px;
         margin-bottom: 30px;
     }
 
-    .shoes img{
+    .ad img{
         width: 750px;
         height: 400px;
     }
 
-    .power{
+    .no{
         width: 750px;
         height: 800px;
         margin-bottom: 30px;
     }
 
-    .parents{
+    .n{
         width: 750px;
         height: 800px;
         margin-bottom: 5px;
     }
 
-    .biography{
+    .q{
         width: 750px;
         height: 800px;
         margin-bottom: 30px;
     }
 
-    .india{
+    .w{
         width: 750px;
         height: 800px;
         margin-bottom: 30px;
     }
 
-    .knocking{
+    .e{
         width: 750px;
         height: 800px;
         margin-bottom: 30px;
     }
 
-    .interview{
+    .r{
         width: 750px;
         height: 800px;
         margin-bottom: 30px;
     }
 
-    .guide{
+    .t{
         width: 750px;
         height: 800px;
         margin-bottom: 30px;
     }
 
-    .tips{
+    .y{
         width: 750px;
         height: 800px;
         margin-bottom: 30px;
     }
 
-    .section a{
+    .b a{
         padding-left: 60px;
         font-size: 19px;
         
@@ -451,7 +451,7 @@ div a:active{
         line-height: 1.75;
     }
 
-    .top a {
+    .na a {
         font-size: 24px;
     }
 

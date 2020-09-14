@@ -2,8 +2,14 @@
     .background-image{
       width: 100%;
     }
-    nav a{
-        margin-right: -120px;
+    .sign{
+       
+    }
+    .login{
+        
+    }
+    nav {
+        margin-right: 8px;
     }
     .text{
         width: 350px;

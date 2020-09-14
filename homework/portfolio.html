@@ -1,64 +1,215 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>My first web page</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <script>
+          function showNav(){
+            var links = document.querySelector(".ul");
+            var icon = document.querySelector(".icon i");
+
+            if(links.style.display == "block"){
+              links.style.display = "none";
+            icon.classList.remove("fa-close");
+            icon.classList.add("fa-bars");
+            }else{
+            links.style.display = "block";
+            icon.classList.remove("fa-bars");
+            icon.classList.add("fa-close");
+            }
+          }
+        </script>
+    </head>
     <body>
-        <title>Flex Assignment</title>
-        <link rel="stylesheet" href="styles.css">
-       
-        <head>
-            <body style="background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); height: 650px;
-            background-repeat: no-repeat;">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            
-        </head>
-        <ul>
-        </li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#about">About</a></li>
-        </ul>
-       
-        <h1>Hey I am Yuvraj Singh</h1>
-        <div class="para1"><p><i>Learning Web Deveblopment</i></p></div>
-        <h2><u>There Are Some Pictures</h2></u>
-        <table>
-       <td> <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" height="400px" width="400px"><span class="image-caption"><p>Tribute Page</p></span></td>
-        <td><img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png" height="400px" width="400px"><span class="image-caption"><p>Randon Quote Machine</p></span></td>
-        <td><img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png" height="400px" width="400px" ><span class="image-caption"><p>JavaScript Calculator</p></span></td>
-        </tr>
-        <tr>
-        <td>
-            <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg" height="400px" width="400px"><span class="image-caption"><p>Map Data Across the Globe</p></span></td>
-           <td> <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png" height="400px" width="400px"><span class="image-caption"><p>Wikipedia Viewer</p></span></td>
-        <td><img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png" height="400px" width="400px"><span class="image-caption"><p>Tic Tae Toe Game</p></span></td> 
-        </tr>
-    </table>
-        <div class="container"><button class="btn btn1">Show all ></button></div>
-        <footer>
-            <h1 style="color :#f0f0f0f0" text-decration="none">Let's Work Together....</h1>
-            <p style="color: white" text-decoration="none" class="how"><small><i>How do you take your coffee?</i></small></p>
-        
-         <table>
-                            <tr class="glass" >
-                                <td class="facebook"><img src="https://lh3.googleusercontent.com/9s-9zONYk4NZvLlHVMIF5cGCzrx7PjZYQ3uow5P8Rj2Mt_XHWygV3gOt75_iI1YtTg" height="20px" width="20px">Facebook</td>
-                                <td class="github"><img src="https://github.githubassets.com/images/modules/open_graph/github-mark.png" height="20px" width="20px">Github</td>
-                                <td class="twitter"><img src="data:image/png;base64,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" height="20px" width="20px">Twitter</td>
-                                <td class="email"><img src="data:image/png;base64,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" height="20px" width="20px">Send a mail</td>
-                                <td class="call"><img src="https://cdn0.iconfinder.com/data/icons/telephone-8/128/phones-01-512.png" height="20px" width="20px">Call me</td>
-                            </tr>
-                        </table>
-                    </br>
-                </br>
-            </br>
-        </br>
-    </br>
-</br>
-</br>
-
-                    <hr color="red" >
-                    <p class="fake">**This is just a fake portfolio. All the projects and contact details given are not real. &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;             © Created for freeCodeCamp </p>
-                        
-        </footer>
-        
-
+        <header>
+            <nav class="ul">
+                <a class="li" href="#contact">Contact</a></li>
+                <a class="li" href="#projects">Work</a></li>
+                <a class="li" href="#section">About</a></li>
+            </nav>
+            <nav class="icon">
+              <i class="fa fa-bars" onclick="showNav()"></i>
+            </nav>
+        </header>
+        <a name="section"></a>
+        <section class="welcome-section">
+            <h1>Hey I am Yuvraj</h1>
+            <p class="learn">learning web development</p>
+        </section>
+        <a name="projects"></a>
+        <section id="projects" class="projects-section">
+          <h2 class="projects-section-header">These are some of my projects</h2>
+          <div class="projects-grid">
+            <a 
+            href="https://yuvrajsingh0508.github.io/survey/survey.html" 
+            class="project project-tile"
+            target="blank"
+            >
+                <img
+                class="project-image"
+                src="E:\tejendra html\image\survey.png" height="400px" width="350px"
+                alt="project"
+                />
+                <p class="project-title">
+                    <span class="code"></span>
+                    Survey Form
+                    <span class="code"></span>
+                </p>
+            </a>
+            <a
+            href="http://yuvrajsingh0508.github.io/cricket/cricket.html"
+            target="blank"
+            class="project project-tile"
+            >
+                <img
+                class="project-image"
+                src="E:\tejendra html\image\cricket shala.png" height="400px" width="350px"
+                alt="project"
+                />
+                <p class="project-title">
+                    <span class="code"></span>
+                    Clone of Cricketshala
+                    <span class="code">/></span>
+                </p>
+            </a>
+            <a
+            href="http://yuvrajsingh0508.github.io/car/car.html"
+            target="blank"
+            class="project project-tile"
+            >
+                <img
+                class="project-image"
+                src="E:\tejendra html\image\car.png" height="400px" width="350px"
+                alt="project"
+                />
+                <p class="project-title">
+                    <span class="code"> </span>
+                    Car
+                    <span class="code"></span>
+                    </p>
+            </a>
+            <a
+            href="http://yuvrajsingh0508.github.io/zomato/zomato.html"
+            target="blank"
+            class="project project-tile"
+            >
+                <img
+                class="project-image"
+                src="E:\tejendra html\image\zomato.png" height="400px" width="350px"
+                alt="project"
+                />
+                <p class="project-title">
+                    <span class="code"></span>
+                    Clone of Zomato
+                    <span class="code"></span>
+                </p>
+            </a>
+            <a
+            href="https://yuvrajsingh0508.github.io/table/table.html"
+            target="_blank"
+            class="project project-tile"
+            >
+                <img
+                class="project-image"
+                src="E:\tejendra html\image\table.png" height="400px" width="350px"
+                alt="project"
+                />
+                <p class="project-title">
+                    <span class="code"></span>
+                    Table Assignment
+                    <span class="code"></span>
+                </p>
+            </a>
+            <a
+            href="https://yuvrajsingh0508.github.io/doraemon/doraemon.html"
+            target="_blank"
+            class="project project-tile"
+            >
+                <img
+                class="project-image"
+                src="E:\tejendra html\image\doreamon.png" height="400px" width="350px"
+                alt="project"
+                />
+                <p class="project-title">
+                    <span class="code"></span>
+                    Doreamon
+                    <span class="code"></span>
+                </p>
+            </a>
+          </div>
+          <br>
+          <br>
+          <p class="button"><a href="#" class="show">Show All<i>></i></a></p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        </section>
+        <a name="contact"></a>
+        <section id="contact" class="contact-section">
+          <div class="contact-section-header">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h2 class="h2">Let's work together...</h2>
+          <br>
+          <p class="para">How do you take your coffee?</p>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="contact-links">
+          <a
+          href="https://facebook.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details">
+          <i class="fa fa-facebook-square">
+          </i> Facebook</a>
+          <a
+          href="https://github.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details">
+          <i class="fa fa-github">
+          </i> GitHub</a>
+          <a
+          href="https://twitter.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details">
+          <i class="fa fa-twitter">
+          </i> Twitter</a>
+          <a 
+          href="mailto:example@example.com" 
+          target="_blank"
+          class="btn contact-details">
+          <i class="fa fa-at">
+          </i> Send a mail</a>
+          <a 
+          href="tel:555-555-5555" 
+          target="_blank"
+          class="btn contact-details">
+          <i class="fa fa-mobile">
+          </i> Call me</a>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <hr color="#be3144" width="99%">
+          <footer>
+              <p >**This is a real portfolio. All the projects and contact details given are not fake.</p>
+          </footer>
+        </section>  
     </body>
 </html>
