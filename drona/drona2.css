@@ -9,15 +9,14 @@ body {
     width: 100%;
     height: 74px;
     display: flex;
+    position: fixed;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #fff;
-    position: absolute;
     margin-top: -39px;
     justify-content: space-between;
   }
   .link img {
     margin-left: 110px;
-    /* width: 227px; */
     margin-top: 14px;
   }
   .logo2{
@@ -51,7 +50,6 @@ body {
     margin-left: 90px;
   }
   .tagline {
-    /* text-align: center; */
     padding-left: 20px;
     padding-top: 56px;
     font-size: 21px;
@@ -113,7 +111,7 @@ body {
     outline-color: #fff;
     border-radius: 8px;
   }
-  .time-slot {
+  .time-slots {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -154,7 +152,7 @@ body {
     background-color: #e18e00;
     border: 1px solid #e18e00;
   }
-  .link-next {
+  .patient-details{
     color: #fff;
     font-size: 16px;
   }
@@ -184,7 +182,7 @@ body {
       width: 87%;
       margin-left: 20px;
     }
-    .time-slot {
+    .time-slots {
       margin-left: 1px;
       margin-right: 5px;
     }
@@ -193,8 +191,5 @@ body {
     }
     .button {
       margin-left: 30px;
-    }
-    .logo2{
-        margin-left: -570px;
     }
   }
