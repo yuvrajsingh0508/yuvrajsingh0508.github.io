@@ -4,8 +4,8 @@ body {
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     margin: 0;
     background-color: #f7f7f7;
-  }
-  .header {
+}
+.header {
     width: 100%;
     height: 74px;
     display: flex;
@@ -14,24 +14,24 @@ body {
     background-color: #fff;
     margin-top: -39px;
     justify-content: space-between;
-  }
-  .link img {
+}
+.logo img {
     margin-left: 110px;
     margin-top: 14px;
-  }
-  .logo2{
+}
+.logo2{
       position: absolute;
       padding-left: 1050px;
-  }
-  .available-slots{
+}
+.available-slots{
       position: absolute;
       padding-top: 65px;
       padding-left: 93px;
       color: gray;
       font-size: 15px;
-  }  
+}  
   
-  .form-control {
+.dropdown {
     font-size: 16px;
     border: 2px solid purple;
     width: 120px;
@@ -41,66 +41,66 @@ body {
     border-radius: 10px;
     margin-right: 100px;
     color: purple;
-  }
-  .call-type {
+}
+.call-type {
     margin-top: 40px;
     width: 86%;
     height: 400px;
     background-color: #fff;
     margin-left: 90px;
-  }
-  .tagline {
+}
+.tagline {
     padding-left: 20px;
     padding-top: 56px;
     font-size: 21px;
     font-weight: 100;
     color: #575757;
-  }
-  .doctor-name h1 {
+}
+.doctor-name h1 {
     font-size: 30px;
     color: #000;
     margin-top: 4px;
     padding-left: 18px;
-  }
-  .tag {
+}
+.tag {
     font-size: 14px;
     padding-left: 15px;
     padding-top: 40px;
     font-family: "Roboto", sans-serif;
-  }
-  .video-call {
+}
+.video-call {
     height: 90px;
     width: 100px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
     margin-left: 40px;
     margin-top: 20px;
     border-radius: 5px;
-  }
-  .video-call i {
+}
+ .video-call i {
     padding-left: 40px;
     font-size: 20px;
     padding-top: 27px;
     color: #772386;
-  }
-  .in-text {
+}
+.in-text {
     color: #575757;
     font-family: "Roboto", sans-serif;
     text-align: center;
     padding-top: 10px;
-  }
-  .boxes {
+}
+.boxes {
     display: flex;
-  }
-  .tag-2 {
+}
+.tag-2 {
     font-size: 14px;
     padding-left: 90px;
     padding-top: 40px;
     font-family: "Roboto", sans-serif;
-  }
-  .calender {
+}
+.calender {
     font-family: "Roboto", sans-serif;
-  }
-  .calender input {
+}
+.calender input {
     width: 86%;
     height: 50px;
     margin-left: 90px;
@@ -110,16 +110,16 @@ body {
     font-size: 16px;
     outline-color: #fff;
     border-radius: 8px;
-  }
-  .time-slots {
+}
+.time-slots {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 10px;
     margin-left: 80px;
     margin-right: 80px;
-  }
-  .time {
+}
+.time {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.15);
     margin-top: 30px;
     width: 190px;
@@ -131,11 +131,11 @@ body {
     color: purple;
     border-radius: 40px;
     background-color: #fff;
-  }
-  .purple {
+}
+.purple {
     margin-top: 56px;
-  }
-  .button {
+}
+.button {
     border: 1px solid #772386;
     border-radius: 10px;
     height: 35px;
@@ -147,25 +147,25 @@ body {
     padding-top: 12px;
     transition: 0.5s;
     margin-bottom: 20px;
-  }
-  .button:hover {
+}
+.button:hover {
     background-color: #e18e00;
     border: 1px solid #e18e00;
-  }
-  .patient-details{
+}
+.patient-details{
     color: #fff;
     font-size: 16px;
-  }
-  .purple a {
+}
+.purple a {
     text-decoration: none;
-  }
+}
   
   @media (max-width: 800px) {
-    .link img {
+    .logo img {
       margin-left: 5px;
       margin-top: 12px;
     }
-    .form-control {
+    .dropdown{
       font-size: 14px;
       margin-right: 30px;
       width: 90px;
@@ -190,6 +190,9 @@ body {
       width: 175px;
     }
     .button {
-      margin-left: 30px;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: auto;
+      text-align: center;
     }
   }

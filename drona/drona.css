@@ -49,9 +49,8 @@ body {
     text-align: center;
     margin-top: -14px;
   }
-  .logo img {
-    border-radius: 32px;
-    padding: 10px;
+  .logo {
+      margin-top: 14px;
   }
   .image-cover{
     height: 130px;
